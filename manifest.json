@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Selección Invisible",
+  "version": "1.0",
+  "description": "Cambia el color de selección de texto a un blanco sutil.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Activar estilo de selección"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
